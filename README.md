@@ -9,15 +9,14 @@ A command-line tool that reads student scores and produces grade and subject rep
 ## Getting Started
 
 ```bash
-# 1. Clone the repo
-git clone https://github.com/your-org/grade-calculator.git
-cd grade-calculator
+# 1. Create a Directory
+mkdir <directory-name>
 
-# 2. Install dev dependencies
-pip install pytest
+# 2. Move into that director
+cd <directory-name>
 
-# 3. Run the tests (all will fail at first — that's expected)
-python -m pytest tests/ -v
+# 3. Clone the repo
+git clone https://github.com/your-org/grade-calculator.git .
 
 # 4. Once implemented, run the program
 python main.py
@@ -100,20 +99,3 @@ Rank  Name                          Score
 1     Emma Brown                    98.00
 2     Alice Johnson                 92.00
 ...
-```
-
----
-
-## Git Workflow
-
-```
-main (protected)  ← PRs only
-  └── develop
-        └── feature/<your-name>-<module>
-```
-
-1. Pull latest `develop`
-2. Create your branch: `feature/alice-grades` or `feature/bob-subjects`
-3. Implement your functions
-4. Make sure your tests pass: `python -m pytest tests/ -v`
-5. Push and open a PR to `develop`
