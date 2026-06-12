@@ -6,7 +6,7 @@ A command-line tool that reads student scores and produces grade and subject rep
 
 ---
 
-## Getting Started
+## Getting Started On this Project
 
 ```bash
 # 1. Create a Directory
