@@ -16,7 +16,7 @@ mkdir <directory-name>
 cd <directory-name>
 
 # 3. Clone the repo
-git clone https://github.com/your-org/grade-calculator.git .
+git clone git@github.com:Amaryllis750/student_grader.git .
 
 # 4. Once implemented, run the program
 python main.py
